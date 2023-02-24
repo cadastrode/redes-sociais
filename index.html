@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes sociais</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/dexie/dist/dexie.js"></script>
+   <!--<script src="js/test.js"></script>--> 
+    <script src="js/java.js" defer></script>
+    
+</head>
+<header>
+    <h1 id="cab">Redes Sociais</h1>
+    <div><input type="search" name="pesquisa" id="pesquisa">
+        <input type="submit" value="pesquisar"></div>
+    <img id="perfil" src="img/person-circle.svg" alt="foto de perfil">
+</header>
+<nav>
+    <a class="na" href="Inicio">Inicio</a>
+    <a class="na" href="Amigos">Amigos</a>
+    <input type="text" hidden
+     id="recid">
+</nav>
+<main>
+    <section id="lateralEsquerda">
+        <h2>Stories</h2>
+    </section>
+    <section id="conteudo"><h2>Criar Posts</h2>
+     <div id="posts">
+        <h3>Nova Postagen</h3>
+        <div id="inp"><input class="fil"  type="file" name="Video" id="video">
+            <input  class="fil" type="file" name="foto" id="foto"></div>
+     </div>
+     <label class="la" for="titulo">Título</label>
+     <input type="text" name="titulo" id="titulo">
+     <label class="la" for="titulo">Post</label>
+     <textarea name="areaDePostagem" id="areaDePostagem" cols="30" rows="10"></textarea>
+     <input id="troca" type="hidden" value="">
+     <div><input id="postar" type="submit" value="postar"></div>
+     <div><input id="atualizar" type="submit" value="atualizar"></div>
+
+     <section id="ta">
+        <h3>postts aqui</h3>
+        
+     </section>
+
+    </section>
+    <section id="lateralDireita">
+       <h2>Anúncios</h2>
+    </section>
+
+</main>
+<footer>
+    <h2>Redes Sociais</h2>
+</footer>
+<body>
+    
+</body>
+</html>
